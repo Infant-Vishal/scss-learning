@@ -1,0 +1,23 @@
+$greyColor: grey;
+$blackColor: black;
+$whiteColor: white;
+$redColor: red;
+$orangeColor: orange;
+
+@mixin buttonStyle($color) {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: $color;
+  color: white;
+  font-size: 16px;
+}
+
+@function set-text-color($color) {
+  @if (lightness($color) > 70) {
+    @return green;
+  } @else {
+    @return purple;
+  }
+}

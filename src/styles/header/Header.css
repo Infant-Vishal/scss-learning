@@ -1,0 +1,37 @@
+.btn-primary, .btn-secondary {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: red;
+}
+
+.btn-secondary {
+  background-color: #ffdb99;
+}
+
+.header-container {
+  display: block;
+  background-color: red;
+}
+
+.header-container h1 {
+  text-align: center;
+  color: purple;
+}
+
+.header-container button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+}
+/*# sourceMappingURL=Header.css.map */

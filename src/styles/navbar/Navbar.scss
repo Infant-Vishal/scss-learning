@@ -1,0 +1,17 @@
+@import "../variables/variables";
+
+.navbar {
+  background-color: $blackColor;
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: $whiteColor;
+    margin: 18px;
+    text-decoration: none;
+}
+

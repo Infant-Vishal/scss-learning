@@ -1,0 +1,19 @@
+.navbar {
+  background-color: black;
+  height: 70px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: white;
+  margin: 18px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Navbar.css.map */

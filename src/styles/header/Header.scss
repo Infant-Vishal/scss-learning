@@ -1,0 +1,16 @@
+@import "../variables/variables";
+@import "../variables/buttons";
+
+.header-container {
+  display: block;
+  background-color: $redColor;
+
+  h1 {
+    text-align: center;
+    color: set-text-color($redColor);
+  }
+
+  button {
+    @include buttonStyle(orange);
+  }
+}
